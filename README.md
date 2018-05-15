@@ -1,1 +1,3 @@
-# Machine-Learning-SELF-
+# Machine-Learning [SELF]
+
+* Linear Regression
