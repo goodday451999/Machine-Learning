@@ -1,22 +1,29 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+# determining the coefficients 
 def coeff(x, y):
     n = np.size(x)
+    # mean 
     mx = np.mean(x)
     my = np.mean(y)
+    # cross deviation
     SS_xy = np.sum(x*y - n*mx*my)
     SS_xx = np.sum(x*x - n*mx*mx)
+    # constants
     c1 = SS_xy / SS_xx
     c0 = my - c1*mx
     
     return(c0, c1)
 
+# plot 
 def plot_regression_line(x, y, c):
+    # actual values
     plt.scatter(x, y, color="g", s=30)
+    # predicte hyperplane
     yPred = c[0] + c[1]*x
     plt.plot(x, yPred, color="r")
+
     plt.xlabel('X')
     plt.ylabel('Y')
     plt.title('Linear Regression')
