@@ -3,3 +3,4 @@
 * Simple Linear Regression
 * Linear Regression
 * Polynomial Regression
+* Logical Regression
