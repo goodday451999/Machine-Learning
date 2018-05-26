@@ -4,3 +4,4 @@
 * Linear Regression
 * Polynomial Regression
 * Logical Regression
+* Random Forest Regression
