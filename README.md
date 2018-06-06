@@ -6,3 +6,4 @@
 * Logical Regression
 * Random Forest Regression
 * K-Mean Clustering
+* Hierarchical Clustering
