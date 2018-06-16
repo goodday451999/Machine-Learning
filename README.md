@@ -3,7 +3,8 @@
 * Simple Linear Regression
 * Linear Regression
 * Polynomial Regression
-* Logical Regression
+* Logistic Regression
+* Support Vector Machine (SVM)
 * Random Forest Regression
 * K-Mean Clustering
 * Hierarchical Clustering
