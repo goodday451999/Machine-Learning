@@ -9,3 +9,4 @@
 * K-Mean Clustering
 * Hierarchical Clustering
 * Xgboost
+* PySpark/ Linear Regression
