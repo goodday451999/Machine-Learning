@@ -12,3 +12,4 @@
 * PySpark
   * Linear Regression
 * Preprocessing
+* Naive Bayes
