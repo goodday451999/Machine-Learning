@@ -13,3 +13,4 @@
   * Linear Regression
 * Preprocessing
 * Naive Bayes
+* Principle Componenet Analysis (PCA)
